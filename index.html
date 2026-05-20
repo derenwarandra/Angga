@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CV Muhamad Angga</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#e9edf2;
+    padding:30px 15px;
+    display:flex;
+    justify-content:center;
+}
+
+.cv-container{
+    width:100%;
+    max-width:950px;
+    background:#fff;
+    display:flex;
+    overflow:hidden;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* SIDEBAR */
+
+.sidebar{
+    width:34%;
+    background:#1f2937;
+    color:white;
+    padding:35px 25px;
+}
+
+.profile{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.profile img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #fbbf24;
+}
+
+/* JUDUL */
+
+.sidebar-title,
+.section-title{
+    background:#fbbf24;
+    color:#111827;
+    padding:10px 15px;
+    border-radius:8px;
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:15px;
+    letter-spacing:1px;
+}
+
+.sidebar-section{
+    margin-bottom:30px;
+}
+
+.sidebar-section p{
+    font-size:13px;
+    margin-bottom:10px;
+    line-height:1.6;
+    color:#d1d5db;
+}
+
+.sidebar-section strong{
+    color:white;
+}
+
+.contact-item{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.contact-item i{
+    color:#fbbf24;
+    width:20px;
+}
+
+/* MAIN */
+
+.main{
+    width:66%;
+    padding:45px;
+}
+
+.header{
+    margin-bottom:35px;
+}
+
+.header h1{
+    font-size:38px;
+    color:#111827;
+    line-height:1.1;
+}
+
+.header h2{
+    font-size:18px;
+    font-weight:400;
+    color:#6b7280;
+    margin-top:8px;
+    letter-spacing:2px;
+}
+
+.section{
+    margin-bottom:30px;
+}
+
+.section p{
+    font-size:14px;
+    line-height:1.8;
+    color:#374151;
+    text-align:justify;
+}
+
+.edu-item{
+    margin-bottom:18px;
+}
+
+.edu-item h4{
+    color:#111827;
+    font-size:15px;
+}
+
+.edu-item span{
+    color:#16a34a;
+    font-size:13px;
+    font-weight:600;
+}
+
+.list{
+    padding-left:20px;
+}
+
+.list li{
+    margin-bottom:10px;
+    color:#374151;
+    font-size:14px;
+    line-height:1.6;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .cv-container{
+        flex-direction:column;
+    }
+
+    .sidebar,
+    .main{
+        width:100%;
+    }
+
+    .main{
+        padding:30px 25px;
+    }
+
+    .header h1{
+        font-size:30px;
+    }
+
+    .profile img{
+        width:140px;
+        height:140px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="cv-container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="profile">
+            <!-- GANTI DENGAN NAMA FOTO YANG BENAR -->
+            <img src="anggacv.jpg" alt="Muhamad Angga">
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-title">DATA DIRI</div>
+
+            <p><strong>Tempat, Tanggal Lahir:</strong><br>Lebak, 1 November 2008</p>
+
+            <p><strong>Jenis Kelamin:</strong><br>Laki-Laki</p>
+
+            <p><strong>Status:</strong><br>Belum Menikah</p>
+
+            <p><strong>Kewarganegaraan:</strong><br>Indonesia</p>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-title">KONTAK</div>
+
+            <p class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                0838-7196-1084
+            </p>
+
+            <p class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                muhammadangga@gmail.com
+            </p>
+
+            <p class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                Kp. Legok
+            </p>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-title">SOSIAL MEDIA</div>
+
+            <p class="contact-item">
+                <i class="fa-brands fa-instagram"></i>
+                @angga
+            </p>
+        </div>
+
+    </aside>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <div class="header">
+            <h1>MUHAMAD ANGGA</h1>
+            <h2>TKJ STUDENT</h2>
+        </div>
+
+        <section class="section">
+            <div class="section-title">TENTANG SAYA</div>
+
+            <p>
+                Saya adalah pelajar SMK jurusan Teknik Komputer dan Jaringan
+                yang memiliki minat dalam bidang jaringan komputer,
+                administrasi server, dan troubleshooting sistem.
+                Saya terbiasa melakukan konfigurasi jaringan,
+                instalasi sistem operasi Linux maupun Windows,
+                serta memahami dasar keamanan jaringan dan server.
+            </p>
+        </section>
+
+        <section class="section">
+            <div class="section-title">PENDIDIKAN</div>
+
+            <div class="edu-item">
+                <h4>SMK Negeri 1 Rangkasbitung</h4>
+                <span>2023 - Sekarang</span>
+            </div>
+
+            <div class="edu-item">
+                <h4>SMP Negeri 3 Kalanganyar</h4>
+                <span>2020 - 2023</span>
+            </div>
+
+            <div class="edu-item">
+                <h4>SD Negeri 2 Pasirkupa</h4>
+                <span>2015 - 2020</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">PENGALAMAN PROJEK</div>
+
+            <ul class="list">
+                <li>Membuat web server menggunakan Debian 10</li>
+                <li>Konfigurasi firewall iptables</li>
+                <li>Instalasi dan konfigurasi FTP Server</li>
+                <li>Simulasi jaringan menggunakan Cisco Packet Tracer</li>
+                <li>Konfigurasi IP Address dalam jaringan LAN</li>
+                <li>Konfigurasi port filtering dan access control</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <div class="section-title">KEMAMPUAN</div>
+
+            <ul class="list">
+                <li>Apache & Nginx Web Server</li>
+                <li>FTP Server Configuration</li>
+                <li>SSH Remote Server</li>
+                <li>Linux Administration Dasar</li>
+                <li>Backup & Restore Server</li>
+                <li>Instalasi Windows dan Linux</li>
+                <li>Problem Solving</li>
+                <li>Kerja Tim</li>
+            </ul>
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
